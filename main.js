@@ -13,6 +13,7 @@ let audios = [
 let botoes = document.querySelectorAll('.botao');
 let legendas = document.querySelectorAll('p');
 
+
 for (let i=0; i < 9; i++){
   legendas[i].textContent = audios[i].legenda;
   botoes[i].setAttribute('data-item', i);
